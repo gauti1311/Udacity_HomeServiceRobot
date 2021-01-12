@@ -11,7 +11,7 @@ $git clone https://github.com/gauti1311/UD_Home_Service_Robot.git
 $cd ../
 $catkin_make
 ```
-```
+
 Install all packages dependencies with 
 ```
 $ rosdep install [package_name]
