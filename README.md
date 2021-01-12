@@ -25,3 +25,5 @@ $ ./home_service.sh
 ```
 
 A Gazebo world and RViz will open with turtlebot in simulated environment the robot will navigate autonomously to pick an object (virtual marker) from pickup location then drop it at desitnation and marker appears again.
+
+![UD_Home_Service_Robot](demo.gif) 
