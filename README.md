@@ -4,12 +4,12 @@ An Udacity Nano-degree project for Home Service Autonomous robot navigating in a
 ## Installation and Build
 
 ```
-$mkdir -p catkin_ws/src
-$cd catkin_ws/src
-$catkin_init_workspace
-$git clone https://github.com/gauti1311/UD_Home_Service_Robot.git
-$cd ../
-$catkin_make
+$ mkdir -p catkin_ws/src
+$ cd catkin_ws/src
+$ catkin_init_workspace
+$ git clone https://github.com/gauti1311/UD_Home_Service_Robot.git
+$ cd ..
+$ catkin_make
 ```
 
 Install all packages dependencies with 
