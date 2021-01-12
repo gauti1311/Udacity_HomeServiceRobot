@@ -1,6 +1,11 @@
 # UD_Home_Service_Robot
 An Udacity Nano-degree project for Home Service Autonomous robot navigating in a simulated environment performing SLAM and Path planning using ROS and Gazebo packages.
 
+# The Whole Package looks like below. 
+
+![UD_Home_Service_Robot](package_structure.png) 
+
+
 ## Installation and Build
 
 ```
