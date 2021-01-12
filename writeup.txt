@@ -1,0 +1,21 @@
+Project : A Home Service Robot from Udacity Robotics Software Nanodegree Program 
+
+Packages used
+
+1. slam_gmapping : For mapping of an envrionment and navigation of robot
+2. turtlebot_gazebo : To deploy turtlebot in indoor envrionment
+3. turtlebot_teleop : To control the turtlebot manually using keyboard
+4. turtlebot_rviz_launchers : To launch the robot and map in rviz 
+
+
+Nodes and functinalities :
+
+1. pick_objects : A program which gives navigation commands to the robot. It sends coordinates to the robot and navigates in map, towards the goal. The process repeates two time for pickup and dropping the object. It uses move base packge (path planning based on dijkstra's algorithm).
+
+2. add_markers : This package is used to simulate the robot to pick-up and drop-off a virtual object at predefined locations. It subscribes to odometry messages from the robot to use as feedback. 
+The objects gets disappear once robot reaches near to pickup location and reappears when robot reaches to drop point.
+
+3. map : Predeifined map and yaml file for this project.
+4. worlds : This folder contains gazebo world file.
+5. scripts : This folder contains scripts used to test and run different programs such as slam,navigation, pick_objects, add_markers.
+
